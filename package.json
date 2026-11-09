@@ -1,6 +1,6 @@
 {
   "name": "@FranklinClark-DMV/ngx-angular-query-builder",
-  "version": "20.3.0-alpha.1",
+  "version": "20.3.0-alpha.4",
   "publishConfig": {
     "@FranklinClark-DMV:registry": "https://npm.pkg.github.com"
   },
@@ -46,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
+    "karma-spec-reporter": "^0.0.37",
     "ng-packagr": "^20.3.2",
     "typescript": "5.9.3"
   },
