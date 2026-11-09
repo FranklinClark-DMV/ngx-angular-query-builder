@@ -15,7 +15,7 @@
     "test:ci": "ng test --source-map=false --browsers=ChromeHeadless --watch=false",
     "prettier": "npx prettier --write **"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "20.3.25",
     "@angular/cdk": "20.2.14",
