@@ -12,6 +12,7 @@
     "watch-package": "ng build ngx-angular-query-builder --watch --configuration development",
     "watch-demo": "ng build demo --watch --configuration development",
     "test": "ng test",
+    "test:ci": "ng test --source-map=false --browsers=ChromeHeadless --watch=false",
     "prettier": "npx prettier --write **"
   },
   "private": true,
