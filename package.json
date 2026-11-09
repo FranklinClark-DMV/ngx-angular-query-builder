@@ -1,6 +1,9 @@
 {
-  "name": "ngx-angular-query-builder",
-  "version": "21.0.0-alpha.1",
+  "name": "@FranklinClark-DMV/ngx-angular-query-builder",
+  "version": "20.3.0-alpha.1",
+  "publishConfig": {
+    "@FranklinClark-DMV:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
