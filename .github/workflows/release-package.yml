@@ -28,8 +28,9 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm run ng build ngx-angular-query-builder
-      - run: cd dist/ngx-angular-query-builder
-      - run: npm publish
+      - run: |
+            npm run ng build ngx-angular-query-builder
+            cd dist/ngx-angular-query-builder/fesm2022
+            npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
