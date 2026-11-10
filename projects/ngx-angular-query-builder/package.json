@@ -1,6 +1,6 @@
 {
   "name": "@FranklinClark-DMV/ngx-angular-query-builder",
-  "version": "20.3.0-alpha.11",
+  "version": "20.3.0-alpha.12",
   "description": "Port of angular2-query-builder from github.com/designermanjeets/Angular-QueryBuilder in order to support angular 12+",
   "license": "MIT",
   "publishConfig": {

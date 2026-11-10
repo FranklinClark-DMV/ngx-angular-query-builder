@@ -1,6 +1,6 @@
 {
   "name": "@FranklinClark-DMV/ngx-angular-query-builder",
-  "version": "20.3.0-alpha.11",
+  "version": "20.3.0-alpha.12",
   "publishConfig": {
     "@FranklinClark-DMV:registry": "https://npm.pkg.github.com"
   },
