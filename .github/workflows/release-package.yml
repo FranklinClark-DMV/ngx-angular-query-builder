@@ -30,6 +30,7 @@ jobs:
       - run: npm ci
       - run: |
             npm run ng build ngx-angular-query-builder
+            cp .npmrc dist/ngx-angular-query-builder/.npmrc
             cd dist/ngx-angular-query-builder
             npm publish
         env:
