@@ -30,7 +30,7 @@ jobs:
       - run: npm ci
       - run: |
             npm run ng build ngx-angular-query-builder
-            cd dist/ngx-angular-query-builder/fesm2022
+            cd dist/ngx-angular-query-builder
             npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
